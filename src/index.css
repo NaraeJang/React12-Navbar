@@ -283,12 +283,8 @@ nav {
   height: 40px;
 }
 
-.links-container {
-  text-align: center;
-  padding-bottom: 0.5rem;
-}
-
 .links a {
+  text-align: center;
   color: var(--grey-700);
   font-size: 1rem;
   text-transform: capitalize;
@@ -304,4 +300,16 @@ nav {
   background: var(--primary-100);
   color: var(--primary-500);
   padding-top: 0.4rem;
+}
+
+/* 160px = 10rem */
+
+.links-container {
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.show-container {
+  height: 12rem;
 }
