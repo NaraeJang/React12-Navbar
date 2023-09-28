@@ -3,7 +3,7 @@ import { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import logo from "./logo.svg";
 const Navbar = () => {
-  const [showLinks, setShowLinks] = useState(false);
+  const [showLinks, setShowLinks] = useState(true);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
